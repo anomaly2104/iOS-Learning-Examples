@@ -23,6 +23,8 @@
 		ADE00DD118E2A8D600139879 /* Learning_ExamplesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE00DD018E2A8D600139879 /* Learning_ExamplesTests.m */; };
 		ADE00DDC18E2C3A600139879 /* UAImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE00DDB18E2C3A600139879 /* UAImageViewController.m */; };
 		ADE00DE218E2C44C00139879 /* UALeaningExamplesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE00DE118E2C44C00139879 /* UALeaningExamplesTableViewController.m */; };
+		ADE00DFA18E435D200139879 /* UAAFHTTPSessionManagerExampleRequestTypesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE00DF918E435D200139879 /* UAAFHTTPSessionManagerExampleRequestTypesTableViewController.m */; };
+		ADE00DFD18E436C700139879 /* UAAFHTTPSessionManagerExampleSendRequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE00DFC18E436C700139879 /* UAAFHTTPSessionManagerExampleSendRequestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,10 @@
 		ADE00DDB18E2C3A600139879 /* UAImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAImageViewController.m; sourceTree = "<group>"; };
 		ADE00DE018E2C44C00139879 /* UALeaningExamplesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UALeaningExamplesTableViewController.h; sourceTree = "<group>"; };
 		ADE00DE118E2C44C00139879 /* UALeaningExamplesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UALeaningExamplesTableViewController.m; sourceTree = "<group>"; };
+		ADE00DF818E435D200139879 /* UAAFHTTPSessionManagerExampleRequestTypesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAAFHTTPSessionManagerExampleRequestTypesTableViewController.h; sourceTree = "<group>"; };
+		ADE00DF918E435D200139879 /* UAAFHTTPSessionManagerExampleRequestTypesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAAFHTTPSessionManagerExampleRequestTypesTableViewController.m; sourceTree = "<group>"; };
+		ADE00DFB18E436C700139879 /* UAAFHTTPSessionManagerExampleSendRequestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAAFHTTPSessionManagerExampleSendRequestViewController.h; sourceTree = "<group>"; };
+		ADE00DFC18E436C700139879 /* UAAFHTTPSessionManagerExampleSendRequestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAAFHTTPSessionManagerExampleSendRequestViewController.m; sourceTree = "<group>"; };
 		C55DCA9A739049B2AE9AD51E /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,6 +136,10 @@
 				ADE00DDB18E2C3A600139879 /* UAImageViewController.m */,
 				ADE00DE018E2C44C00139879 /* UALeaningExamplesTableViewController.h */,
 				ADE00DE118E2C44C00139879 /* UALeaningExamplesTableViewController.m */,
+				ADE00DF818E435D200139879 /* UAAFHTTPSessionManagerExampleRequestTypesTableViewController.h */,
+				ADE00DF918E435D200139879 /* UAAFHTTPSessionManagerExampleRequestTypesTableViewController.m */,
+				ADE00DFB18E436C700139879 /* UAAFHTTPSessionManagerExampleSendRequestViewController.h */,
+				ADE00DFC18E436C700139879 /* UAAFHTTPSessionManagerExampleSendRequestViewController.m */,
 			);
 			path = "Learning Examples";
 			sourceTree = "<group>";
@@ -297,7 +307,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADE00DB618E2A8D600139879 /* UAAppDelegate.m in Sources */,
+				ADE00DFA18E435D200139879 /* UAAFHTTPSessionManagerExampleRequestTypesTableViewController.m in Sources */,
 				ADE00DB218E2A8D600139879 /* main.m in Sources */,
+				ADE00DFD18E436C700139879 /* UAAFHTTPSessionManagerExampleSendRequestViewController.m in Sources */,
 				ADE00DDC18E2C3A600139879 /* UAImageViewController.m in Sources */,
 				ADE00DE218E2C44C00139879 /* UALeaningExamplesTableViewController.m in Sources */,
 			);

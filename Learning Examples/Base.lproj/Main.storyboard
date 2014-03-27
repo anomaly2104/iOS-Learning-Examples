@@ -47,7 +47,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1166" y="318"/>
+            <point key="canvasLocation" x="1138" y="-139"/>
         </scene>
         <!--Leaning Examples Table View Controller - Learning Examples-->
         <scene sceneID="ei4-6v-9cp">
@@ -88,22 +88,22 @@
                                             <segue destination="vXZ-lx-hvc" kind="push" identifier="ExamplesToProgressiveImageLoad" id="6yN-hY-6ud"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ExamplesList" textLabel="Ak4-4B-UsZ" detailTextLabel="u3E-Oe-DE8" rowHeight="50" style="IBUITableViewCellStyleSubtitle" id="mw7-tq-Qkh">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ExamplesList" textLabel="Ak4-4B-UsZ" detailTextLabel="u3E-Oe-DE8" rowHeight="50" style="IBUITableViewCellStyleSubtitle" id="mw7-tq-Qkh">
                                         <rect key="frame" x="0.0" y="149" width="320" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mw7-tq-Qkh" id="7t7-Gm-2cm">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="49"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ak4-4B-UsZ">
-                                                    <rect key="frame" x="15" y="6" width="34" height="22"/>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="AFHTTPSessionManager" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ak4-4B-UsZ">
+                                                    <rect key="frame" x="15" y="6" width="202" height="22"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="u3E-Oe-DE8">
-                                                    <rect key="frame" x="15" y="28" width="43" height="15"/>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Http Requests Examples" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="u3E-Oe-DE8">
+                                                    <rect key="frame" x="15" y="28" width="138" height="15"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -111,6 +111,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="5Z9-NK-tr3" kind="push" identifier="ExamplesToAFHttpSessionManagerRequestsTypes" id="f15-2I-zik"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ExamplesList" textLabel="XjZ-yj-aVo" detailTextLabel="tPa-Dt-H2x" rowHeight="50" style="IBUITableViewCellStyleSubtitle" id="bqr-oW-7Hl">
                                         <rect key="frame" x="0.0" y="199" width="320" height="50"/>
@@ -148,7 +151,161 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gZ2-hX-4av" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="788" y="318"/>
+            <point key="canvasLocation" x="726" y="101"/>
+        </scene>
+        <!--Session Manager Example Request Types Table View Controller - AFHTTPSessionManager-->
+        <scene sceneID="hag-hl-MJS">
+            <objects>
+                <tableViewController id="5Z9-NK-tr3" customClass="UAAFHTTPSessionManagerExampleRequestTypesTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="jYW-LF-hUN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <sections>
+                            <tableViewSection id="BFo-bG-b8F">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="AFHTTPSessionManagerExampleRequestTypeCell" textLabel="DrM-W5-pyN" style="IBUITableViewCellStyleDefault" id="kIA-JK-flg">
+                                        <rect key="frame" x="0.0" y="99" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kIA-JK-flg" id="LKj-2h-EMI">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="GET" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DrM-W5-pyN">
+                                                    <rect key="frame" x="15" y="0.0" width="270" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="AFHTTPSessionManagerExampleRequestTypeCell" textLabel="jiX-od-QbG" style="IBUITableViewCellStyleDefault" id="qWS-GX-izh">
+                                        <rect key="frame" x="0.0" y="143" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qWS-GX-izh" id="Kvu-vD-tLg">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="POST" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jiX-od-QbG">
+                                                    <rect key="frame" x="15" y="0.0" width="270" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="AFHTTPSessionManagerExampleRequestTypeCell" textLabel="dTG-EG-IPX" style="IBUITableViewCellStyleDefault" id="xOb-da-23i">
+                                        <rect key="frame" x="0.0" y="187" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xOb-da-23i" id="HGg-Pj-kPa">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="PUT" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dTG-EG-IPX">
+                                                    <rect key="frame" x="15" y="0.0" width="270" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="AFHTTPSessionManagerExampleRequestTypeCell" textLabel="DW5-4K-YUa" style="IBUITableViewCellStyleDefault" id="n6a-L2-cOY">
+                                        <rect key="frame" x="0.0" y="231" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="n6a-L2-cOY" id="rCJ-3M-B6b">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="DELETE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DW5-4K-YUa">
+                                                    <rect key="frame" x="15" y="0.0" width="270" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="5Z9-NK-tr3" id="Wx9-28-pIS"/>
+                            <outlet property="delegate" destination="5Z9-NK-tr3" id="LVs-qF-tXb"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="AFHTTPSessionManager" id="3Ot-PH-5xN"/>
+                    <connections>
+                        <segue destination="IPG-Tv-As2" kind="push" identifier="ExamplesToAFHttpSessionManagerRequest" id="r4S-Oz-HTr"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lGC-BD-rdv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1095" y="519"/>
+        </scene>
+        <!--Session Manager Example Send Request View Controller - HTTP Request-->
+        <scene sceneID="HnK-wV-tep">
+            <objects>
+                <viewController id="IPG-Tv-As2" customClass="UAAFHTTPSessionManagerExampleSendRequestViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Tbh-v0-9Pw"/>
+                        <viewControllerLayoutGuide type="bottom" id="923-DW-KF0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MoK-lT-aJY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Reponse will be shown here" translatesAutoresizingMaskIntoConstraints="NO" id="pPn-Kz-NMQ">
+                                <rect key="frame" x="0.0" y="130" width="320" height="430"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Api URL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R19-Ng-qKs">
+                                <rect key="frame" x="0.0" y="101" width="320" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Status" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HId-IR-0Zy">
+                                <rect key="frame" x="0.0" y="72" width="320" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="HId-IR-0Zy" secondAttribute="width" id="IPL-L1-Qca"/>
+                            <constraint firstAttribute="centerX" secondItem="HId-IR-0Zy" secondAttribute="centerX" id="Ogh-wB-CEL"/>
+                            <constraint firstItem="HId-IR-0Zy" firstAttribute="top" secondItem="Tbh-v0-9Pw" secondAttribute="bottom" constant="20" symbolic="YES" id="Pr4-v1-5nR"/>
+                            <constraint firstItem="R19-Ng-qKs" firstAttribute="top" secondItem="HId-IR-0Zy" secondAttribute="bottom" constant="8" symbolic="YES" id="UlP-Zc-Mdq"/>
+                            <constraint firstItem="R19-Ng-qKs" firstAttribute="width" secondItem="HId-IR-0Zy" secondAttribute="width" id="XHv-dO-K4h"/>
+                            <constraint firstItem="R19-Ng-qKs" firstAttribute="centerX" secondItem="HId-IR-0Zy" secondAttribute="centerX" id="bg1-KR-VFZ"/>
+                            <constraint firstItem="R19-Ng-qKs" firstAttribute="width" secondItem="pPn-Kz-NMQ" secondAttribute="width" id="ia8-NP-UYJ"/>
+                            <constraint firstItem="pPn-Kz-NMQ" firstAttribute="top" secondItem="R19-Ng-qKs" secondAttribute="bottom" constant="8" symbolic="YES" id="mYN-MB-NKT"/>
+                            <constraint firstItem="R19-Ng-qKs" firstAttribute="centerX" secondItem="pPn-Kz-NMQ" secondAttribute="centerX" id="r4h-vT-jsn"/>
+                            <constraint firstItem="923-DW-KF0" firstAttribute="top" secondItem="pPn-Kz-NMQ" secondAttribute="bottom" constant="20" symbolic="YES" id="zK4-bi-BNW"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="HTTP Request" id="tnH-yV-ku1"/>
+                    <connections>
+                        <outlet property="apiURLLabel" destination="R19-Ng-qKs" id="Izw-Ec-HYJ"/>
+                        <outlet property="responseTextView" destination="pPn-Kz-NMQ" id="BhK-wt-GBJ"/>
+                        <outlet property="statusLabel" destination="HId-IR-0Zy" id="llG-u7-Tmn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AxN-g4-zQe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1555" y="498"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="NPf-n2-Ndh">
@@ -166,7 +323,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RS0-f5-3SH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="415" y="318"/>
+            <point key="canvasLocation" x="377" y="87"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
